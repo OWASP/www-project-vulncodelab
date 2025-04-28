@@ -2,40 +2,43 @@
 
 layout: col-sidebar
 title: OWASP VulnCodeLab
-tags: example-tag
+tags: secure-code-review
 level: 2
 type: code
-pitch: A very brief, one-line description of your project
 
 ---
 
-VulnCodeLab is a purpose-built, intentionally vulnerable full-stack web application designed to train developers, security engineers in manual secure source code review. Unlike existing OWASP projects like Juice Shop (focused on exploitation), VulnCodeLab targets white-box auditing skills — scanning for code-level bugs, security misconfigurations, and business logic flaws across a realistic codebase.
-The app simulates an e-commerce platform using Next.js (frontend) and Django REST Framework (backend) and includes vulnerabilities across 10+ categories, including OWASP Top 10 and CWE-mapped logic.
-VulnCodeLab helps:
+# VulnCodeLab: The Future of Secure Code Review Training
 
-* Teach secure coding practices
-* Train for real-world code audits
-* Test AppSec and dev team skills
-* Improve internal secure SDLC workflows
+---
 
-### Road Map
-Phase 1: MVP Release
+Modern applications are built fast — and broken faster.  
+**VulnCodeLab** is a purpose-built, full-stack, intentionally vulnerable enterprise-grade environment designed to **train developers, security engineers, and AppSec teams** in **manual secure code review**.
 
-* Build minimal viable e-commerce app (login, product list, cart, checkout)
-* Inject 30+ real vulnerabilities (XSS, IDOR, SQLi, SSTI, SSRF,etc.)
-* Add CWE/OWASP mapping with fix guidance
-* Dockerized deployment
-* Publish GitHub repo 
-* Submit as OWASP Project
+Unlike traditional exploitation-based labs (like OWASP Juice Shop), VulnCodeLab focuses on **white-box auditing**: finding code-level bugs, security misconfigurations, business logic flaws, and advanced vulnerabilities by reading and understanding the source code itself.
 
-Phase 2: Expansion
+---
 
-* Add advanced vulns (like Race conditions, etc.)
-* Multi-role support (admin, vendor, customer)
-* Add frontend-specific bugs (Next.js bundle, SSR flaws)
-* CI pipeline integration example for SAST training
+## 🚀 Key Features
+- **Real-World Tech Stack:** Next.js (Frontend) + Django REST Framework (Backend)
+- **Enterprise Simulation:** ERP System flow with realistic multi-role users (Admin, Employee, Customer)
+- **Comprehensive Coverage:** OWASP Top 10 Web, API, Mobile, and emerging categories (AI/LLM)
+- **Security Mapping:** Every vulnerability mapped to OWASP, CWE, and business risk
+- **Future Ready:** Expansion to Java, GraphQL, Mobile, AI/LLM vulnerabilities
+- **Free and Open Source:** Built by the community, for the community
 
-Phase 3: Ecosystem Growth
+---
 
-* Collabration and continuous development
-* Cover new attack vectors if introduced in OWASP TOP 10 2025
+## 📚 Who Should Use VulnCodeLab?
+- Developers learning secure coding
+- AppSec teams building internal training
+- Red/Blue/Purple teams training in code review
+- Organizations strengthening Secure SDLC programs
+- Anyone preparing for real-world code audit challenges
+
+---
+
+## 🔗 Quick Links
+- [Visit GitHub Repository](#)
+- [Try the Lab Demo](#)
+- [Join the Community & Contribute](#)
