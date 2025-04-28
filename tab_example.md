@@ -1,8 +1,8 @@
 ---
 title: Example
 layout:  null
-tab: true
-order: 1
+tab: false
+order: 2
 tags: example-tag
 ---
 
