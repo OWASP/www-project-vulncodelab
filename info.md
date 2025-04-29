@@ -1,17 +1,21 @@
 ### VulnCodeLab Information
 * [Incubator Project](#)
-* [Type of Project](#)
+* [Documentation](#)
 * [Version 0.0.0](#)
+
+### Audience
 * [Builder](#)
 * [Breaker](#)
 
-### Downloads or Social Links
+<!-- ### Downloads or Social Links
 * [Download](#)
 * [Meetup](#)
+* [Github] (#) -->
 
 ### Code Repository
-* [repo](#)
+* [Github Repo](#)
 
 ### Change Log
-* [changes](#)
+<!-- * [changes](#) -->
+* MVP Releasing soon
 
