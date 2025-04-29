@@ -2,14 +2,14 @@
 title: Roadmap
 layout:  null
 tab: true
-order: 1
+order: 2
 tags: roadmap
 ---
 # 🛣️ Roadmap
 
 ---
 
-## Phase 0: Core MVP (2025 Q2)
+## Phase 0: Core MVP (May 2025)
 - Build basic e-commerce platform (Frontend: Next.js + Backend: Django REST)
 - Inject OWASP Top 10 Web vulnerabilities + initial Business Logic flaws
 - Manual deployment setup (bash scripts)
@@ -27,7 +27,7 @@ tags: roadmap
 
 ---
 
-## Phase 1: Advanced AppSec Training 
+## Phase 1: Advanced AppSec Training (TBA)
 - Add advanced vulnerabilities (Race conditions, Insecure serialization, SSRF chains)
 - Implement multi-role user logic (Admin, Vendor, Customer)
 - Introduce frontend-specific bugs (Next.js bundle leaks, SSRF in SSR)
@@ -35,7 +35,7 @@ tags: roadmap
 
 ---
 
-## Phase 2: Enterprise Expansion 
+## Phase 2: Enterprise Expansion (TBA)
 - Add separate Java-based microservice (vulnerable inventory system)
 - Create GraphQL API service with vulnerable queries/mutations
 - Develop initial AI/LLM vulnerable components (prompt injection, model exploits)
@@ -43,7 +43,7 @@ tags: roadmap
 
 ---
 
-## Phase 3: Mobile + Next-Gen Modules 
+## Phase 3: Mobile + Next-Gen Modules (TBA)
 - Build Mobile app (Flutter or React Native) with mobile-specific vulnerabilities
 - Add advanced AI/LLM modules (agent manipulation, data exfiltration via LLMs)
 - Optional: Web3 smart contract module (if viable)
@@ -54,6 +54,6 @@ tags: roadmap
 - Recruit contributors and maintain open governance
 - Monthly minor releases + community engagement
 - Blog posts, webinars, contribution workshops
-- Explore CTF mode (challenge-based mode on top of core lab)
+<!-- - Explore CTF mode (challenge-based mode on top of core lab) -->
 
 ---
